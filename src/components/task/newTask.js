@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NewTask() {
   return (
-    <div className="new_task">
+    <iframe className="new_task">
       <form>
         <label for="taskName">Task name:</label>
         <input type="text" name="taskName" />
@@ -27,6 +27,6 @@ export default function NewTask() {
         <input type="date" name="dateEnd" />
         <input type="submit" value="Save" />
       </form>
-    </div>
+    </iframe>
   );
 }
